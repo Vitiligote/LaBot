@@ -21,7 +21,7 @@ def launch_dofus():
     """to interrupt : dofus.terminate()"""
     platform = sys.platform
     if platform == "darwin":
-        path = "/Applications/Dofus.app/Contents/Data/Dofus.app/Contents/MacOS/Dofus"
+        path = "/Applications/Ankama/Dofus/Dofus.app/Contents/MacOS/Dofus"
     elif platform == "win32":
         appdata = os.getenv("appdata")
         parent = os.path.dirname(appdata)
